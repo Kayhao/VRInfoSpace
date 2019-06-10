@@ -6,6 +6,8 @@ using UnityEngine;
 public class IKBind : MonoBehaviour {
 
     private VRIK vrik;
+    private bool isLeft=false;
+    private bool isRight=false;
 
     private void Awake()
     {
@@ -19,6 +21,22 @@ public class IKBind : MonoBehaviour {
 
     private void Update()
     {
-        
+        if (GameObject.FindGameObjectWithTag("LArmHand")!=null)
+        {
+            if (isLeft==false)
+            {
+                vrik.solver.leftArm.target = GameObject.FindGameObjectWithTag("LArmHand").transform;
+                isLeft = true;
+            }
+        }
+
+        if (GameObject.FindGameObjectWithTag("RArmHand") != null)
+        {
+            if (isRight == false)
+            {
+                vrik.solver.rightArm.target = GameObject.FindGameObjectWithTag("RArmHand").transform;
+                isRight = true;
+            }
+        }
     }
 }

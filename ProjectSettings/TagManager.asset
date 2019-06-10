@@ -10,6 +10,9 @@ TagManager:
   - NickHead
   - LArmHand
   - RArmHand
+  - Finger
+  - KeyBoard
+  - DialogParent
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - StereoRender_Ignore
   - 
   - 
   - 

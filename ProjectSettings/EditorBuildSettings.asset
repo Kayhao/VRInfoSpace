@@ -9,5 +9,5 @@ EditorBuildSettings:
     path: Assets/Start.unity
     guid: b0d6b5ee258c7404b814dabed713812e
   - enabled: 1
-    path: Assets/Scene/MuseumVR 1.unity
+    path: Assets/MuseumVR 1.unity
     guid: 41ac685a41ae3d64580891e106c4df9f

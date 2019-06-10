@@ -429,6 +429,7 @@ GameObject:
   - component: {fileID: 4586340269658372}
   - component: {fileID: 95454671588614706}
   - component: {fileID: 114024074640367384}
+  - component: {fileID: 114365653121759682}
   m_Layer: 0
   m_Name: Character03
   m_TagString: Untagged
@@ -2404,6 +2405,17 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
+--- !u!114 &114365653121759682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349399558773558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90eb2efb618d1d34f8c0aa4b1fe28595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137027561421777942
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

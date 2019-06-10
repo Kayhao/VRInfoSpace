@@ -4,4 +4,9 @@
     IsShowStartPanel,
     IsChooseCharacter,
     LoadScene,
+    HideButton,
+    ShowKeyBoard,
+    ShowTips,
+    DialogText,
+    IsActiveDialogParent,
 }

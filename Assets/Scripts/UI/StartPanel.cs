@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class StartPanel : MonoBehaviour {
 
-    private string characterName;
+    private string characterName= "Character01";
     private void Awake()
     {
         transform.Find("SelectButton").GetComponent<Button>().onClick.AddListener(()=> 

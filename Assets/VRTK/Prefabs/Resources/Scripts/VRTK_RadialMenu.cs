@@ -193,6 +193,15 @@ namespace VRTK
                 newButton.GetComponent<RectTransform>().offsetMax = Vector2.zero;
                 newButton.GetComponent<RectTransform>().offsetMin = Vector2.zero;
 
+                if (i==0)
+                {
+                    newButton.AddComponent<ShowKeyBoard>();
+                }
+                if (i==3)
+                {
+                    newButton.AddComponent<ShowButton>();
+                }
+
                 //Setup button arc
                 UICircle circle = newButton.GetComponent<UICircle>();
                 if (buttonThickness == 1)
@@ -345,7 +354,7 @@ namespace VRTK
             Vector3 Dir = -1 * Vector3.one;
             if (show)
             {
-                targetScale = 1;
+                targetScale = 2;
                 Dir = Vector3.one;
             }
             int i = 0; //Sanity check for infinite loops

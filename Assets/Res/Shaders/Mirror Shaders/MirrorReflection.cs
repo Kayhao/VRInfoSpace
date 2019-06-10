@@ -30,7 +30,7 @@ public class MirrorReflection : MonoBehaviour
 		var rend = GetComponent<Renderer>();
 		if (!enabled || !rend || !rend.sharedMaterial || !rend.enabled)
 			return;
-
+        
 		Camera cam = Camera.current;
 		if( !cam )
 			return;
